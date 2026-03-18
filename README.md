@@ -190,6 +190,7 @@ The folder `triplet-loss-generator/` contains a series of scripts used to constr
 - final fine-grained similarity scoring.
 
 All CSV files derived from real driving scenarios are **not included** in this repository, but the scripts and triplet-loss-generator/README.txt document the expected formats so that you can adapt the pipeline to your own data.
+
 ---
 
 ## License

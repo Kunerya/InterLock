@@ -5,7 +5,7 @@
 This repository provides the reference implementation of the Spatio-Temporal Graph Transformer (STGT) used in InterLock, a privacy-preserving framework for ciphertext-domain similarity computation of autonomous driving scenarios, as illustrated below.
 
 <p align="center">
-  <img src="STGT\figures\Framework of InterLock.jpg"
+  <img src="STGT\figures\framework.jpg"
        alt="InterLock framework for ciphertext-domain similarity computation of autonomous driving scenarios"
        width="70%">
 </p>
@@ -190,16 +190,6 @@ The folder `triplet-loss-generator/` contains a series of scripts used to constr
 - final fine-grained similarity scoring.
 
 All CSV files derived from real driving scenarios are **not included** in this repository, but the scripts and triplet-loss-generator/README.txt document the expected formats so that you can adapt the pipeline to your own data.
-
----
-## Citation
-
-This code accompanies the following manuscript:
-
-> L. Xiao et al., “InterLock: Interaction Learning under Cipher-Lock for Privacy-Preserving Similarity of Autonomous Driving Scenarios,” manuscript submitted to *IEEE Transactions on Intelligent Transportation Systems (T-ITS)*, 2025.
-
-This work is currently under review.
-
 ---
 
 ## License
